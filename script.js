@@ -14,7 +14,7 @@ do {
             case 1:
                 pay = Number(prompt("SELECCIONE METODO DE PAGO \n 1.-ANUAL $300 \n 2.- SEMESTRAL $170"))
                 if (pay === 1) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO BENEFACTOR ANUAL")
                 } else if (pay === 2) {
                     alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
                 }
@@ -23,36 +23,36 @@ do {
                 pay = Number(prompt("SELECCIONE METODO DE PAGO \n 1.-ANUAL $200 \n 2.- SEMESTRAL $120"))
                 alert("Gracias por hacerte SOCIO DIAMANTE")
                 if (pay === 1) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO DIAMANTE ANUAL")
                 } else if (pay === 2) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO DIAMANTE SEMESTRAL")
                 }
                 break
             case 3:
                 pay = Number(prompt("SELECCIONE METODO DE PAGO \n 1.-ANUAL $150 \n 2.- SEMESTRAL $80"))
                 alert("Gracias por hacerte SOCIO PLATINO")
                 if (pay === 1) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO PLATINO ANUAL")
                 } else if (pay === 2) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO PLATINO SEMESTRAL")
                 }
                 break
             case 4:
                 pay = Number(prompt("SELECCIONE METODO DE PAGO \n 1.-ANUAL $100 \n 2.- SEMESTRAL $60"))
                 alert("Gracias por hacerte SOCIO GENERAL")
                 if (pay === 1) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO GENERAL ANUAL")
                 } else if (pay === 2) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO GENERAL SEMESTRAL")
                 }
                 break
             case 5:
                 pay = Number(prompt("SELECCIONE METODO DE PAGO \n 1.-ANUAL $70 \n 2.- SEMESTRAL $50"))
                 alert("Gracias por hacerte SOCIO CURVA")
                 if (pay === 1) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO CURVA ANUAL")
                 } else if (pay === 2) {
-                    alert("Gracias por hacerte SOCIO BENEFACTOR SEMESTRAL")
+                    alert("Gracias por hacerte SOCIO CURVA SEMESTRAL")
                 }
                 break
 
