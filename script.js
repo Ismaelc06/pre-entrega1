@@ -7,7 +7,7 @@ let option = 0
 let pointer = 0
 let pay = 0
 do {
-    option = Number(prompt(" 1.- Registro de NUEVO SOCIO \n 2.- PAGO DE APORTES \n 3.- VER CATEGORIAS \n 0.- SALIR"))
+    option = Number(prompt(" 1.- Registro de NUEVO SOCIO \n 2.- PAGO DE APORTES GESTION 2023 \n 3.- VER CATEGORIAS \n 0.- SALIR"))
     if (option == 1) {
         pointer = Number(prompt("Seleccione la categoria \n COSTO ADICIONAL DEL CARNET 10$ \n 1.- Benefactor \n 2.- Diamante \n 3.- Platino \n 4.- General \n 5.- Curva \n 0.- SALIR"))
         switch (pointer) {
